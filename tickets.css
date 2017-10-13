@@ -1,0 +1,89 @@
+/* Navigation */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #000000;
+}
+
+nav ul, nav li {
+    float: right;
+    padding-right: 25px;
+    display: block;
+    margin: 0;
+}
+nav li {
+    padding: 7px 25px;
+}
+
+
+nav li a {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color:#737071;
+}
+
+nav img{
+  float: left;
+  width: 100px;
+  padding-left: 25px;
+  position: fixed;
+  top: 0;
+}
+.fligh{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  float: right;
+  width: 50%;
+  margin-top: 6%;
+  margin-right: 5%;
+}
+.tickets{
+  float: right;
+  margin-right: 27%;
+  margin-top: -36%;
+}
+.cars{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  float: right;
+  width: 50%;
+  margin-top: -27%;
+  margin-right: 5%;
+}
+body{
+  background-color: #EACCDB;
+}
+h1{
+  font-family: 'Lato', sans-serif;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+}
+ul{
+  font-family: 'Lato', sans-serif;
+  float: right;
+  margin-right: 27%;
+  margin-top: -17%;
+}
+
+.plane{
+    margin-left: 3%;
+}
+
+footer{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}

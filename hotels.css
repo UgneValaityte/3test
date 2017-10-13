@@ -1,0 +1,88 @@
+/* Navigation */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+nav ul, nav li {
+    float: right;
+    padding-right: 25px;
+    display: block;
+    margin: 0;
+}
+nav li {
+    padding: 7px 25px;
+}
+
+
+nav li a {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #737071;
+}
+
+nav img{
+  float: left;
+  width: 100px;
+  padding-left: 25px;
+  position: fixed;
+  top: 0;
+}
+/*end of nav*/
+
+.hotels{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  float: right;
+  width: 50%;
+  margin-top: 6%;
+  margin-right: 12%;
+}
+.links{font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  float: right;
+  width: 50%;
+  margin-top: -21%;
+  margin-right: 12%;
+}
+body{
+  background-color: #EACCDB;
+}
+h1{
+  font-family: 'Lato', sans-serif;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+}
+
+.tickets {
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  margin-right: 32%;
+  margin-top: -10%;
+
+}
+
+.garden{
+  margin-left: 4%;
+}
+
+
+footer{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
